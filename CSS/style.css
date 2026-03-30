@@ -1,0 +1,90 @@
+    .header-style{
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color:#aa9773;
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    .roboto-400 {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }    
+
+    .center{
+        display: flex;
+        align-items: center;
+    }
+    /*classes de botões*/
+    .button1-style{
+        background: #aa9773;
+        border: 1px solid #0d1a1c;
+        margin-right: 10px;
+        padding: 18px;
+        border-radius: 30px;
+    }
+
+    .button2-style{
+        background: #7e6a44;
+        padding: 18px;
+        border-radius: 30px;
+        border: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: #1b1b1b;
+    }
+
+    .h1-style{
+        padding-left: 10px ;
+        color: #0d1a1c;
+    }
+
+    .style-voltar{
+        text-decoration: none;
+        color: #3483FA;
+    }
+     /*classes de alinhamento*/
+    .text-center{
+        position: relative;
+        text-align: center;
+    }
+
+    .bg-panel{
+        background: white;
+    }
+
+    .caption{
+        font-size: 13px;
+        color: gray;
+    }
+
+    .bt-1{
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 4px;
+        background: #aa9773;
+        width: 100%;
+    }
+
+    .bt-google{
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 4px;
+        background: white;
+        margin: 20px;
+        width: 89%;
+    }
